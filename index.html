@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>hotjson</title>
+    <link rel="stylesheet" type="text/css" href="demo.css">
+    <link rel="stylesheet" type="text/css" href="hotjson.css">
+  </head>
+  <body>
+
+    <div class="main">
+      <textarea class="editor">{
+  "name": "hotjson",
+  "version": "0.1.0",
+  "description": "Render some json and make it look hot",
+  "main": "index.js",
+  "browser": "browser.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/orangemug/hotjson.git"
+  },
+  "keywords": [
+    "json",
+    "renderer"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/orangemug/hotjson",
+  "devDependencies": {
+    "browserify": "^8.1.3",
+    "mocha": "^2.1.0"
+  }
+}</textarea>
+      <div class="hotjson"></div>
+      <div class="error"></div>
+    </div>
+
+    <!-- scripts -->
+    <script type="text/javascript" src="hotjson.js"></script>
+    <script type="text/javascript" src="demo.js"></script>
+  </body>
+</html>
