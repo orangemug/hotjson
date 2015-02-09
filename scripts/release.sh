@@ -1,8 +1,8 @@
 git checkout master
-mkdir -p build/demo
-cp demo/* build/demo/
+mkdir -p build
+cp demo/* build/
 git checkout gh-pages
-mv build/demo/* .
+mv build/* .
 git add .
 git commit -m "auto build"
 git checkout master
