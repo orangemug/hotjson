@@ -1,4 +1,7 @@
+set -e
+
 git checkout master
+npm i
 mkdir -p build
 ./node_modules/.bin/browserify -s hotjson . > ./build/hotjson.js
 cp demo/* build/
