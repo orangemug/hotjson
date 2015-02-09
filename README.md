@@ -14,11 +14,17 @@ Then on the client bind some events to the rendered DOM.
     var el = document.querySelector(".json");
     hotjson.events.enable(el);
 
+There is also some sample css <css/hotjson.css>
+
 
 ## Build
 Find a build file at <build/hotjson.js>. To rebuild run
 
     npm run-script build
+
+
+## Test
+No tests just yet... soon though
 
 
 ## License
