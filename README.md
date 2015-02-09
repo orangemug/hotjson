@@ -15,5 +15,11 @@ Then on the client bind some events to the rendered DOM.
     hotjson.events.enable(el);
 
 
+## Build
+Find a build file at <build/hotjson.js>. To rebuild run
+
+    npm run-script build
+
+
 ## License
 MIT

@@ -2,8 +2,11 @@
   "name": "hotjson",
   "version": "0.1.0",
   "description": "Render some json and make it look hot",
-  "main": "index.js",
+  "main": "node.js",
   "browser": "browser.js",
+  "scripts": {
+    "build": "browserify -s hotjson . > ./build/hotjson.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/orangemug/hotjson.git"
