@@ -5,7 +5,7 @@
   "main": "node.js",
   "browser": "browser.js",
   "scripts": {
-    "build": "browserify -s hotjson . > ./build/hotjson.js"
+    "build": "./scripts/release.sh"
   },
   "repository": {
     "type": "git",
