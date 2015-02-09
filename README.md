@@ -1,7 +1,13 @@
-# hotjson [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
+# hotjson ![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)
 Render some json and make it look hot.
 
 There is a demo [here](https://orangemug.github.io/hotjson)
+
+
+## Install
+Either grab the standalone file [here](http://orangemug.github.io/hotjson/hotjson.js) or install with npm (and use with browserify)
+
+    npm i git://github.com/orangemug/hotjson.git
 
 
 ## Usage
@@ -20,9 +26,9 @@ There is also some sample css <css/hotjson.css>
 
 
 ## Build
-Find a build file at <http://orangemug.github.io/hotjson.js>. To rebuild, and generate the website run
+To rebuild, and generate the website run
 
-    npm run-script release
+    npm run build
 
 
 ## Test
