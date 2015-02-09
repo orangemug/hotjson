@@ -1,5 +1,7 @@
-# hotjson
+# hotjson [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
 Render some json and make it look hot.
+
+There is a demo [here](https://orangemug.github.io/hotjson)
 
 
 ## Usage
