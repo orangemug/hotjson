@@ -1,0 +1,95 @@
+.hj-t {
+  display: inline;
+}
+
+.hj-t > .hj-inner {
+  display: inline;
+  position: relative;
+}
+
+.hj-t > .hj-inner:before:hover {
+  background-color: #C89F3E;
+}
+
+.hj-t-string {
+  display: inline;
+  word-break: break-all;
+  color: #C89F3E;
+}
+
+.hj-t-array {
+  display: inline;
+}
+
+.hj-t-number {
+  color: #868686;
+}
+
+.hj-t-key {
+  color: black;
+}
+
+.hj-t-object > .hj-inner {
+  padding-left: 10px;
+  display: block;
+}
+
+.hj-t-array > .hj-inner {
+  padding-left: 10px;
+  display: block;
+}
+
+
+.hide > .hj-inner > * {
+  display: none;
+}
+
+.hide > .hj-inner:before {
+  content: "...";
+  padding: 0px 0px;
+}
+
+.hide > .hj-inner {
+  display: inline-block;
+  padding-left: 0;
+  cursor: pointer;
+}
+
+.hide > .hj-inner:hover {
+  color: #03A0D4;
+}
+
+.hj-t-object-item + .hj-sep:after {
+  content: "\A";
+  white-space: pre;
+}
+
+.hj-t-array > .hj-inner > .hj-sep:after {
+  content: "\A";
+  white-space: pre;
+}
+
+.hj-inner:empty {
+  display: inline;
+  padding: 0;
+}
+
+.hj-t-key:hover {
+  color: #03A0D4;
+  cursor: pointer;
+}
+
+/* Really lazy... */
+.hj-t-key:hover ~ * > .hj-sep {
+  color: #03A0D4;
+  cursor: pointer;
+}
+
+.hj-sep {
+  cursor: pointer;
+}
+
+.select > .hj-sep {
+  color: #03A0D4;
+}
+
