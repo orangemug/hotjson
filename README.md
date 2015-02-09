@@ -18,9 +18,9 @@ There is also some sample css <css/hotjson.css>
 
 
 ## Build
-Find a build file at <build/hotjson.js>. To rebuild run
+Find a build file at <http://orangemug.github.io/hotjson.js>. To rebuild, and generate the website run
 
-    npm run-script build
+    npm run-script release
 
 
 ## Test
