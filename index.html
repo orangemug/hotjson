@@ -4,10 +4,22 @@
     <title>hotjson</title>
     <link rel="stylesheet" type="text/css" href="demo.css">
     <link rel="stylesheet" type="text/css" href="hotjson.css">
-  </head>
+
+
+    <meta name="apple-touch-fullscreen" content="YES" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0" />
+      </head>
   <body>
 
+    <header class="logo">
+      <a href="http://github.com/orangemug/hotjson">hotjson</a>
+    </header>
+
     <div class="main">
+      <label>Editor</label>
       <textarea class="editor">{
   "name": "hotjson",
   "version": "0.1.0",
@@ -29,8 +41,9 @@
     "mocha": "^2.1.0"
   }
 }</textarea>
-      <div class="hotjson"></div>
+      <label>Result</label>
       <div class="error"></div>
+      <div class="hotjson"></div>
     </div>
 
     <!-- scripts -->
