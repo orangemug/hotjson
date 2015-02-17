@@ -9,6 +9,8 @@ document.addEventListener("DOMContentLoaded", function() {
   editorEl.addEventListener("keyup", render, false);
 
   function render() {
+    editorEl.style.height = editorEl.scrollHeight+"px"; 
+
     try {
       var obj = JSON.parse(editorEl.value);
     } catch(err) {
